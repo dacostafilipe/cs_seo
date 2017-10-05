@@ -285,11 +285,13 @@ $GLOBALS['TCA']['pages_language_overlay']['palettes']['metatags']['showitem'] =
     'pages_language_overlay',
     'tx_csseo_facebook',
     'tx_csseo_og_title, --linebreak--,
-    tx_csseo_og_description');
+    tx_csseo_og_description, --linebreak--,
+    tx_csseo_og_image');
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
     'pages_language_overlay',
     'tx_csseo_twitter',
     'tx_csseo_tw_title, --linebreak--,
     tx_csseo_tw_description, --linebreak--,
+    tx_csseo_tw_image, --linebreak--,
     tx_csseo_tw_creator');
