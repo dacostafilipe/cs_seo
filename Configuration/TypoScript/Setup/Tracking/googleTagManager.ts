@@ -18,11 +18,13 @@ page.jsInline.654.15 {
 
 page.bodyTagCObject = COA
 page.bodyTagCObject {
+	
+	1 = TEXT
+	1.value = <body>
+	
 	654 = COA
 	654 {
-		10 = TEXT
-		10.value = <body>
-
+		
 		20 = TEXT
 		20 {
 			value = {$plugin.tx_csseo.tracking.googleTagManager}
